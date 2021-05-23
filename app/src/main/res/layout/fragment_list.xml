@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <TextView
+            android:id="@+id/textView_titre3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:fontFamily="monospace"
+            android:text="All Objects"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@color/cardview_dark_background"
+            android:textSize="25dp"
+            android:gravity="center_horizontal" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="635dp"
+            android:orientation="vertical">
+
+            <GridView
+                android:id="@+id/listObjects"
+                android:layout_width="match_parent"
+                android:layout_height="541dp"
+                android:columnWidth="150dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="spacingWidthUniform"
+                android:verticalSpacing="24dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

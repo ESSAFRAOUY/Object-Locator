@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    //pour selectionner qu'un seul élément de la liste
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home_page"
+        android:icon="@drawable/ic_home"
+        android:title="Home page"/>
+    <item android:id="@+id/add_object"
+        android:icon="@drawable/ic_add"
+        android:title="Add new object"/>
+    <item android:id="@+id/delete_object"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"/>
+    <item android:id="@+id/update_object"
+        android:icon="@drawable/ic_update"
+        android:title="Update"/>
+    <item android:id="@+id/list_objects"
+        android:icon="@drawable/ic_list"
+        android:title="objects list"/>
+    <item android:id="@+id/map_objects"
+        android:icon="@drawable/ic_map"
+        android:title="Show map"/>
+
+
+
+
+</group>
+</menu>
